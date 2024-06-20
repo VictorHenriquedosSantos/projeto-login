@@ -12,7 +12,7 @@ azul escuro: #556C75
     box-sizing: border-box;
 }
 
-body {
+body, html {
     background-color: #556C75;
     height: 100vh;
     width: 100vw;
