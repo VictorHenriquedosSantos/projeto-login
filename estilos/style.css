@@ -62,3 +62,43 @@ div#login > h1 {
 div#login > p {
     font-size: .8em;
 }
+
+form > input[type=submit] {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #556C75;
+    color: white;
+    border: none;
+    font-size: 1em;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #2b363a;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: white;
+    color: #2b363a;
+    border: 1px solid #2b363a;
+    border-radius: 7px;
+}
+
+form > a.botao:hover {
+    background-color: #556C75;
+    color: white;
+}
+
+form > a.botao > span {
+    font-size: 1.1em;
+}
